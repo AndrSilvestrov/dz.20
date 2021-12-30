@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dz.20.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="popup">
+        <div class="popup__content">
+            <form class="popup__form">
+                <h3 class="popup__title">Оставте свои данные, мы вам перезвоним</h1>
+
+                    <label class="popup__label">
+                        <div class="popup__sub">Имя</div>
+                        <div class="popup__input-wrap">
+                        <input type="text" class="popup__input">
+                        </div>
+                    </label>
+                    <label class="popup__label">
+                        <div class="popup__sub">Телефон</div>
+                        <div class="popup__input-wrap  popup__input-wrap--phone">
+                        <input type="tel" class="popup__input">
+                        </div>
+                    </label>
+                    <label class="popup__label">
+                        <div class="popup__sub">Почта</div>
+                        <div class="popup__input-wrap  popup__input-wrap--email">
+                        <input type="email" class="popup__input">
+                        </div>
+                    </label>
+                    <label class="popup__label">
+                        <div class="popup__sub">Комментарий</div>
+                        <textarea type="text" class="popup__input popup__textarea" placeholder="Введите текст"></textarea>
+                    </label>
+
+                    <label class="popup__label popup__label--flex">
+                        <input type="checkbox" class="popup__checkbox-real">
+                        <div class="popup__checkbox-fake"></div>
+                        <div class="popup__checkbox-text">Соглашаюсь с рассылкой и принимаю <a href="#" class="popup__checkbox-link">Условия договора</a>
+                        </div>
+                    </label>
+
+                    <div class="popup__button">
+                        <button class="button">Отправить</button>
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
